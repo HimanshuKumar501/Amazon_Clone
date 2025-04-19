@@ -1,0 +1,489 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgba(214, 213, 213, 0.808);
+}
+/*Navigation Panel*/
+/*Navigation Part one*/
+.navbar{
+    height: 65px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.navbor{
+border: 1px solid transparent;
+}
+.navbor:hover{
+border:  1px solid white;
+border-radius: 2px;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+    background-image: url("Image/AmazonLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*Navigation Part two*/
+.navlocation{
+    padding: 8px;
+}.navlocapara1{
+    color:#cccccc;
+    margin-left: 18px;
+    font-size: 0.8rem;
+}
+.navlocapara2{
+    color:#ffffff;
+    font-size: 0.9rem;
+}
+/*Part three*/
+
+.navselsear{
+    display: flex;
+    width: 830px;
+
+}
+.navselsear select,input{
+    border: none;
+    height: 40px;
+    outline: none;
+}
+.navselsear select{
+    width: 60px;
+    background-color: #e6e6e6;
+    color: #0f1111;
+    font-size: 1.1rem;
+    border-right: 1px solid grey;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+}
+.navselsear input{
+    flex-grow: 2;
+    font-size: 1.18rem;
+}
+.navselsear p {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color:#0f1111 ;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(231, 155, 24);
+}
+.navborselser{
+    border: 2px solid transparent;
+    transition: all 0.5s ease;
+    border-radius: 3px;
+}
+.navborselser:hover{
+    border: 2px solid rgb(231, 155, 24);;
+    box-shadow: 0px 0px 0px 0.5px rgb(231, 155, 24);;
+}
+/* Navigation Part Four*/
+.navcountry{
+    display: flex;
+    padding: 13px;
+}
+.navcountry p{
+    margin-left: 10px;
+}
+.navcounimg{
+width: 30px;
+height: 5px;
+}
+
+/* Navigation Part Five*/
+.navsign{
+    padding: 8px;
+}
+.navsignp1{
+    font-size: 0.9rem;
+}
+.navsignp2{
+    font-size: 0.98rem;
+    font-weight: bold;
+}
+/* Navigation Part Six*/
+.navreturn{
+    padding: 8px;
+}
+.navreturnp1{
+    font-size: 0.9rem; 
+}
+.navreturnp2{
+    font-size: 0.98rem;  
+    font-weight: bold;
+}
+/* Navigation Part Seven*/
+.navcart{
+padding: 10px;
+}
+.navcart i{
+    font-size: 1.5rem;    
+}
+@media (max-width:1312px) {
+.navselsear{
+    transition: all 0.5s ease;
+    width: 550px;
+    }     
+}
+@media (max-width:1222px) {
+    .navlogo{
+        height: 50px;
+        width: 80px;
+    }   
+     
+}
+
+/* Second Navigation Bar */
+
+.nansecli ul{
+    display: flex;
+    background-color: #333;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    height: 40px;
+}
+.nansecli li a{
+    color:  white;
+    text-decoration: none;
+}
+.nansecli li 
+{
+    border: 1px solid transparent;
+    padding: 7.8px;
+}
+.nansecli li:hover
+{
+    border:  1px solid white;
+    border-radius: 2px;
+}
+
+/*Page Image of Website*/
+.amzpageimg{
+    margin: 0px 20px 0px 20px;
+    display: flex;
+}
+.amzpageimg img{
+    height: 400px;
+    cursor: pointer;  
+}
+.amzpageimg button{
+    height: 400px;
+    width: 50px;
+    background:none;
+    border: 1.8px solid transparent;
+    outline: none;
+    font-weight: bolder;
+    transition:  all 0.5s ease;
+}
+.amzpageimg button:hover{
+    border:1.8px solid black;  
+  }
+  
+.slides{
+    display: none;
+}
+
+/*Card Images of Website*/
+.webcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 70px 0px 70px;
+}
+.cards{
+    width: 345px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.cards h3{
+    width: 275px;
+    font-size: 1.22rem;
+    margin-left: 20px;
+    padding: 20px 0px 20px 0px;
+}
+.cards p{
+    margin: 10px 0px 25px 20px;
+    color: #008175;
+}
+.cards a{
+      color: #008175;
+      text-decoration: none;
+}
+.cards a:hover{
+    color: #d47c1d;
+    text-decoration: underline;
+}
+
+.cardimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.cardimg figure{
+    width: 140px;
+    padding: 8px 8px 0px 8px;
+}
+.cardimg figcaption{
+    margin-bottom: 20px;
+    font-size: 0.82rem;
+}
+/*Horizontal Image Cards*/
+.allhrcards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.webhrcards{
+    background-color: white;
+    padding-bottom: 30px;
+    margin: 0px 70px 20px 70px;
+}
+.hrcardheading{
+    padding: 20px 0px 5px 0px;
+    margin-left: 20px;
+}
+.hrcardheading p a{
+    color: #008175;
+    text-decoration: none;    
+}
+.hrcardheading p a:hover{
+    color: #d47c1d;
+    text-decoration: underline;
+}
+.hrcardimg figure{
+    width: 180px;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+.hrcardimg figure img{
+    width: 150px;
+    height: 180px;
+}
+.hrcrdbutt{
+    padding: 4px 8px 4px 8px;
+    background-color: red;
+    color: white;
+    font-family: Malgun Gothic;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-left: 5px;
+}
+.hrcrdmsg{
+    color: red;
+    font-family: Malgun Gothic;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.hrcrdmrp{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.hrcrdspan{
+    font-size: 0.8rem;
+}
+/* Amazon Image cards in Single Div*/
+.amzsingledivcards{
+    background-color: white;
+    padding-bottom: 20px;
+    margin: 0px 70px 20px 70px;
+}
+.amzsingledivheading{
+    padding: 18px;
+}
+.amzsingledivheading h3{
+    font-size: 1.2rem;
+}
+.amzsingledivimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.amzsingledivimg img{
+    width: 190px;
+    height: 190px;
+    padding: 10px 0px 15px 0px;
+}
+.amzsingledivheading a{
+    color: #008175;
+    text-decoration: none;
+}
+.amzsingledivheading a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+/*Bottom Sign in*/
+.bottsign
+{
+height: 170px;
+background-color: white;
+padding-top: 25px;
+
+}
+.bottsigndata{
+    margin: auto;
+    text-align: center;
+    border: 0.5px solid rgba(232, 221, 221, 0.76);
+    padding: 30px 0px 20px 0px;
+    border-radius: 5px;
+
+}
+.bottsigndata button{
+    padding: 4px 100px 4px 100px;
+    font-size: 1rem;
+    background: linear-gradient(#fbb163,rgb(246, 151, 117));
+    border: 1px solid #e99e4e;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+.bottsigndata p a{
+    color: #008175;
+    text-decoration: none;
+}
+.bottsigndata p a:hover{
+    color: orangered;
+}
+/*Go to top*/
+.gotop{
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px 0px 15px 0px;
+    background-color: #333;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: rgb(55, 55, 81);
+}
+
+.gotop:hover{
+    opacity: 0.85;
+}
+/*Footer of the Website*/
+footer{
+    background-color: #333;
+}
+/*Fotter Navigation One*/
+.footernav1{
+    padding: 40px 0px 50px 0px ;
+    color: white;
+}
+.footerdata{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footerdata ul{
+    width: 200px;
+}
+.footerdata ul li{
+    list-style-type: none;
+    margin-top: 8px;
+}
+.footerdata ul li{
+    list-style-type: none;
+    margin-top: 8px;
+}
+.footerdata ul h4{
+    margin-bottom: 12px;
+}
+.footerdata ul h4{
+    font-size: 1.1rem;
+}
+.footerdata li a{
+    color: #dddddd;
+    text-decoration: none;
+}
+.footerdata li a:hover{
+    text-decoration: underline;
+}
+/*Fotter Navigation Two*/
+.footernav2{
+    color: #dddddd;
+    padding: 30px 0px 30px 0px;
+}
+.footlogodata{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footimg{
+    width:90px;
+    height: 45px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+.footbtn{
+    display: flex;
+}
+.footglobe,
+.footcountry
+{   
+    height: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 5px 40px 5px 5px;
+    border-radius: 3px;
+    margin-right: 20px;
+    border: 0.5px solid #999999;
+}
+.footcountry img{
+    width: 20px;
+    height: 14px;
+   
+}
+/*Fotter Navigation Three*/
+.footernav3{
+    padding: 10px 0px 20px 0px;
+    font-size: 0.85rem;
+    
+}
+.footerrec{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;   
+}
+
+.footerrec ul{
+    list-style-type: none;
+    width: 200px;
+ 
+}
+.footerrec ul li a{
+    color: #999999;
+    text-decoration: none;
+}
+.footerrec ul li a:hover{
+    text-decoration: underline;
+}
+/*Fotter Navigation Three*/
+.footernav4{
+    color: lightgray;
+    text-align: center;
+    cursor: pointer;
+    padding: 30px 0px 30px 0px;
+}
+.footernav4 p,span{
+font-size: 0.85rem;
+}
